@@ -77,7 +77,7 @@ impl Template for Button {
 
 ```
 
-### 3. What the template builds into
+### 4. Its relationship with other objects.
 
 Define different default states by dependency injection by objects
 relative to the template's target.
