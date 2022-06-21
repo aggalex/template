@@ -13,7 +13,7 @@ struct MyComponent {
 impl Template for MyComponent {
     type Output = i32;
 
-    fn draw(&self) -> <Self as Template>::Output {
+    fn define(self) -> <Self as Template>::Output {
         self.field * 3
     }
 }

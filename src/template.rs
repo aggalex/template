@@ -1,7 +1,7 @@
 pub trait Template {
     type Output;
 
-    fn draw(&self) -> <Self as Template>::Output;
+    fn define(self) -> <Self as Template>::Output;
 }
 
 pub trait TemplateConstruction: /*FnOnce() + */ Default + Template {
