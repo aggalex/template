@@ -1,5 +1,5 @@
 [package]
-name = "template"
+name = "template-builder"
 description = "A rust library for making idiomatic, declarative, builder-like patterns that use the struct literal syntax."
 version = "0.1.0"
 edition = "2021"
