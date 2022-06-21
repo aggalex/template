@@ -8,4 +8,3 @@ mod template;
 pub mod tests;
 
 pub use template::*;
-pub use prelude::template;
