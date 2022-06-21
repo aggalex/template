@@ -1,7 +1,7 @@
 #![feature(unboxed_closures)]
 #![feature(fn_traits)]
 
-extern crate prelude;
+pub extern crate prelude;
 
 mod template;
 #[cfg(test)]

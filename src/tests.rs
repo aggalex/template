@@ -2,11 +2,11 @@
 #![feature(fn_traits)]
 #![feature(trace_macros)]
 
-use crate::{Template, TemplateConstruction};
+use crate::*;
 use prelude::template;
 
 #[template]
-struct MyComponent {
+pub struct MyComponent {
     field: i32
 }
 

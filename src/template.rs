@@ -9,3 +9,7 @@ pub trait TemplateConstruction: /*FnOnce() + */ Default + Template {
     fn create(self) -> Self::Output;
     fn build<O>(self, f: impl FnOnce(Self::Output) -> O) -> O;
 }
+
+pub trait Templatable {
+    type New: Template<Output = Self>;
+}
