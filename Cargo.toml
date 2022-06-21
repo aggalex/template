@@ -5,6 +5,8 @@ edition = "2021"
 license = "LGPLv3"
 keywords = ["builder", "template", "struct-literal", "declarative", "DSL"]
 categories = ["rust-patterns"]
+repository = "https://github.com/aggalex/template"
+readme = "https://raw.githubusercontent.com/aggalex/template/main/README.md"
 
 [lib]
 
