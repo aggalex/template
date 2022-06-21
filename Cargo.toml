@@ -13,4 +13,4 @@ readme = "https://raw.githubusercontent.com/aggalex/template/main/README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-prelude = { path = "./prelude" }
+prelude = { path = "./prelude", version = "0.1.0" }
